@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvAdminMenuName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvAdminCapacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capacity" />
+
+    <TextView
+        android:id="@+id/tvAdminStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status" />
+
+    <Button
+        android:id="@+id/btnUpdateStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Status" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+</LinearLayout>
